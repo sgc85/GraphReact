@@ -69,7 +69,7 @@ function generatePlaneData(point, line, plane) {
   }
 
   //Boom! done...
-  return { x, y, z, type: "surface" };
+  return { x, y, z, type: "surface" ,showscale: false, opacity: 0.65};
 }
 
 
